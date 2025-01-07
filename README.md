@@ -69,8 +69,10 @@ mvn spring-boot:run
 
 The application will be available at `http://localhost:8080`.
 
+
 ## Folder Structure
 
+```plaintext
 src
 ├── main
 │   ├── java
@@ -82,6 +84,10 @@ src
 │   │       │   └── UserDao.java   # DAO layer for database operations
 │   ├── resources
 │       ├── application.properties # Application configuration
+```
+
+---
+
 
 
 ## Code Structure
